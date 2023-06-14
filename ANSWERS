@@ -1,0 +1,96 @@
+1>
+#include <iostream>
+#include <cstdio>
+using namespace std;
+
+int main() {
+    printf("Hello, World!");
+    return 0;
+}
+
+2>
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+
+int main() {
+    int a,b,c;
+    cin >>a>>b>>c;
+    
+    cout<<a+b+c;
+     
+    return 0;
+}
+
+
+3>
+#include <iostream>
+#include <cstdio>
+using namespace std;
+
+int main() {
+    int a;
+    long int b;
+    char c;
+    float d;
+    double e;
+    
+    scanf("%d %ld %c %f %lf",&a,&b,&c,&d,&e);
+    
+    printf("%d\n%ld\n%c\n%f\n%lf\n",a,b,c,d,e);
+    return 0;
+}
+
+
+4>
+#include <bits/stdc++.h>
+
+using namespace std;
+
+string ltrim(const string &);
+string rtrim(const string &);
+
+
+
+int main() {
+    int a;
+    cin >> a;
+    if (a==0){
+        cout<<"zero"<<endl;
+    }
+    else if (a==1) {
+        cout<<"one"<<endl;
+    }
+    else if (a==2) {
+        cout<<"two"<<endl;
+    }
+    else if (a==3) {
+        cout<<"three"<<endl;
+    }
+    else if (a==4) {
+        cout<<"four"<<endl;
+    }
+    else if (a==5) {
+        cout<<"five"<<endl;
+    }
+    else if (a==6) {
+        cout<<"six"<<endl;
+    }
+    else if (a==7) {
+        cout<<"seven"<<endl;
+    }
+    else if (a==8) {
+        cout<<"eight"<<endl;
+    }
+    else if (a==9) {
+        cout<<"nine"<<endl;
+    }
+    else {
+        cout<<"Greater than 9"<<endl;
+    }
+   return 0;
+}
